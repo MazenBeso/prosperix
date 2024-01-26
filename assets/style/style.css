@@ -18,6 +18,34 @@
     color: var(--sec)!important;
 }
 
+.global-h1{
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98.49px;
+}
+
+.right-side p{
+    color: #575757;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+}
+
+.sub-text{
+    color: #575757;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35.005px
+}
+
+.investments{
+    width: 628px;
+    height: 663px;
+}
+
 .getStarted{
     color: white;
     background-color: var(--sec)!important;
@@ -127,8 +155,18 @@
 }
 
 .border{
-    border: #D5DDDD 1px solid;
-    border-radius: 50px 5px;
+    border: #D5DDDD 3px solid!important;
+    border-radius: 35px 4px;
+    width: 395px;
+    height: 403px;
+}
+
+.our{
+    color: #1E1E1E;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61.451px;
 }
 
 .quotes{
@@ -231,5 +269,117 @@
 }
 
 hr{
-    background-color: white !important;;
+    background-color: white !important;
+}
+
+.beso{
+    color: rgb(0, 174, 255);
+}
+
+@media screen and (max-width: 340px) {
+    .global-h1{
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 50px;
+    }
+    .first-img,.sec-left-side{
+        display: flex!important;
+        justify-content: center!important;
+        padding-left: 0!important;
+    }
+    .investments{
+        width: 280px;
+        height: 320px;
+    }
+    .right-side p{
+        color: #575757;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .getStarted , .last-btn{
+        margin-top: 15px;
+    }
+    .company{
+        width: 295px!important;
+        height: 35px!important;
+    }
+    .dash::after{
+        top: 12px;
+        right: 15%;
+        width: 72px;
+        transform: translateX(-50%);
+    }
+    .our{
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 128.023%; /* 61.451px */
+    }
+    .sec-left-side{
+        margin-top: 10px!important;
+    }
+    .regtangel{
+        width: 280px!important;
+        height: 320px;
+        margin-bottom: 15px;
+    }
+    .ser-dash{
+        margin-top: 25px;
+    }
+    .ser-dash::after{
+        width: 72px;
+        height: 2px;
+        top: 12px;
+        left: 77%;
+        transform: translateX(-100%);
+    }
+    .peopel{
+        gap: 30px;
+    }
+    .user-holder{
+        margin-top: 70px!important;
+    }
+    .linda{
+        position: relative;
+    }
+    .quotes-diff{
+        position: absolute;
+        bottom: -60%;
+        right: 5%;
+    }
+    .icons{
+        padding: 10px;
+    }
+    .start-dash{
+        margin-top: 20px;
+    }
+    .start-dash::after{
+        width: 72px;
+        height: 2px;
+        top: 12px;
+        left: 68%;
+        transform: translateX(-100%);
+    }
+    .last-sec{
+        width: 334px;
+        height: 650px;
+    }
+    .last-pic{
+        width: 300px!important;
+        height: 250px;
+    }
+    .our-footer{
+        margin-top: 22px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .global-h1{
+        font-size: 20px!important;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+    }
 }

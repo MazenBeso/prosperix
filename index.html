@@ -12,13 +12,14 @@
     <script src="assets/JS/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+
       <nav class="navbar navbar-expand-lg container mb-5 mt-2">
-        <div class="container-fluid d-flex justify-content-between">
+        <div class="container">
           <a class="navbar-brand fw-bold" href="#">Prosperix</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse justify-content-evenly container" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -41,37 +42,43 @@
         </div>
       </nav>
 
-    <section class="mt-5 container">
+    <section class="container Navigating-global">
       <div class="container">
         <div class="row d-flex justify-content-between">
           <div class="col-md-6 col-lg-6 d-flex align-items-center">
-              <div class="right-side">
-                  <h1>
+              <div class="right-side d-flex flex-column gap-3">
+                  <span class="global-h1">
                       Navigating the <br> <span class="global">Global</span> financial <br> landscape
-                  </h1>
-                  <p class="btn text-black-50 text-end">Empowering Your Journey to Global Financial Success Through Customized and Personalized Financial Consulting for Every Client</p>
-                  <form class="d-flex container gap-2" role="search">
-                      <i class="fa-regular fa-envelope" id="search"></i><input class="form-control email me-2 w-50 pe-4" type="email" placeholder=" Your email address" aria-label="Search">
-                      <button class="btn btn-outline-success getStarted" type="submit">Get Started</button>
-                  </form>
+                  </span>
+                  <p class="text-black-50 text-end">Empowering Your Journey to Global Financial Success Through Customized and Personalized Financial Consulting for Every Client</p>
+                  <div class=" container">
+                    <div class="row d-flex">
+                      <div class="col-sm-3 col-md-6 col-lg-6">
+                        <i class="fa-regular fa-envelope" id="search"></i><input class="form-control email me-2 w-100 pe-4" type="email" placeholder=" Your email address" aria-label="Search">
+                      </div>
+                      <div class="col-sm-3 col-md-6 col-lg-6">
+                        <button class="btn btn-outline-success getStarted" type="submit">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
               </div>
           </div>
-          <div class="col-lg-6 pe-5 d-flex">
+          <div class="col-lg-6 pe-5 d-flex first-img">
             <div class="left-side d-flex justify-content-end">
-              <img src="img/first-img.png" alt="Your Browser Dosen't Support This IMG" class="w-75">
+              <img src="img/first-img.png" alt="Your Browser Dosen't Support This IMG" class="investments">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container d-flex mt-5 mb-5">
+    <section class="container d-flex mt-5 mb-5 branding">
       <div class="container d-flex justify-content-center">
-        <img src="img/CompanyLogos.png" alt="" class="w-75">
+        <img src="img/CompanyLogos.png" alt="" class="w-100 company">
       </div>
     </section>
 
-    <section class="mt-5 container mb-5">
+    <section class="mt-5 container mb-5 OUR EXPERTISE">
       <div class="dash position-relative container">
         <span class="exp">OUR EXPERTISE</span>
       </div>
@@ -81,18 +88,18 @@
               <div class="sec-right-side mt-3 d-flex gap-3 flex-column">
                 <h1 class="fw-bold">Transforming Finances With Strategic Wealth Management</h1>
                 <div class="text-black-50">
-                  <p>Guiding You on Your Global Financial Success Journey Through Customized & Personalized Financial Consulting Services. Achieve Your Goals with Data-Driven Expertise and Secure Your Financial Future, Successfully Navigating the Ever-Changing Finance</p>
-                <p>We're Committed to Providing You with Expert Guidance, Proven Strategies & Personalized Approach to Ensure Financial Prosperity</p>
+                  <p class="sub-text">Guiding You on Your Global Financial Success Journey Through Customized & Personalized Financial Consulting Services. Achieve Your Goals with Data-Driven Expertise and Secure Your Financial Future, Successfully Navigating the Ever-Changing Finance</p>
+                <p class="sub-text">We're Committed to Providing You with Expert Guidance, Proven Strategies & Personalized Approach to Ensure Financial Prosperity</p>
                 </div>
                 <div>
                   <button class="btn explore fw-bold">Explore Services</button>
                 </div>
               </div>
           </div>
-          <div class="col-lg-6 pe-5">
+          <div class="col-lg-6 pe-5 sec-left-side">
             <div class="sec-left-side d-flex">
               <div class="d-flex justify-content-end">
-                <img src="img/regtangel.png" alt="" class="w-75">
+                <img src="img/regtangel.png" alt="" class="w-75 regtangel">
               </div>
             </div>
           </div>
@@ -100,7 +107,7 @@
       </div>
     </section>
 
-    <section class="mt-5 container mb-5">
+    <section class="mt-5 container mb-5 OUR SERVICES">
       <div class="container">
         <div class="row d-flex">
           <div class="col-md-6 col-lg-6 d-flex">
@@ -116,8 +123,8 @@
             </div>
               <div class="d-flex flex-column gap-5">
                 <div class="mt-5">
-                  <h1>Our Services Can Help You Grow Your Investments and Wealth</h1>
-                  <p class="text-black-50 mt-4 container">Embark on a Journey to Unlock a World of Financial Opportunities, Grow Your Investment with Our Comprehensive and Expert Services</p>
+                  <h1 class="our">Our Services Can Help You Grow Your Investments and Wealth</h1>
+                  <p class="sub-text mt-4 container">Embark on a Journey to Unlock a World of Financial Opportunities, Grow Your Investment with Our Comprehensive and Expert Services</p>
                 </div>
                 <div class="row">
                   <div class="col-md-6 col-lg-6">
@@ -155,20 +162,20 @@
       </div>
     </section>
 
-    <section class="container mt-5">
+    <section class="container mt-5 TESTIMONIALS">
       <div class="dash position-relative container">
         <span class="exp">testimonials</span>
       </div>
       <div class="container d-flex flex-column gap-2 mt-3">
-        <h1>What Our Customers Say</h1>
-        <p class=" text-black-50">Discover the Success Stories and Satisfaction of Clients Who Have <br>Benefited from Our Expertise and Personalized Financial Guidance</p>
+        <h1 class="our">What Our Customers Say</h1>
+        <p class="sub-text">Discover the Success Stories and Satisfaction of Clients Who Have <br>Benefited from Our Expertise and Personalized Financial Guidance</p>
       </div>
       <div class="container mt-5">
-        <div class="row d-flex justify-content-between">
+        <div class="row d-flex justify-content-between peopel">
           <div class="col-md-6 col-lg-3 d-flex align-items-center border">
             <div>
               <div class=" container">
-                <div class="d-flex gap-3 mt-4">
+                <div class="d-flex gap-3 mt-4 user-holder">
                   <div>
                     <img src="img/GraceTurner.png" alt="" class="rounded-circle">
                   </div>
@@ -177,7 +184,7 @@
                     <span class=" text-black-50">Director</span>
                   </div>
                 </div>
-                <p class=" mt-5 text-dark">Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community</p>
+                <p class=" mt-5 sub-text">Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community</p>
                 <span class="quotes d-flex justify-content-end">“</span>
               </div>
             </div>
@@ -185,7 +192,7 @@
           
           <div class="col-md-6 col-lg-3 d-flex align-items-center border stuff">
             <div>
-              <div class=" container">
+              <div class="container linda">
                 <div class="d-flex gap-3 mt-4">
                   <div>
                     <img src="img/LindaCarter.png" alt="" class="rounded-circle">
@@ -204,7 +211,7 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-center border">
             <div>
               <div class=" container">
-                <div class="d-flex gap-3 mt-4">
+                <div class="d-flex gap-3 mt-4 user-holder">
                   <div>
                     <img src="img/AlexWalker.png" alt="" class="rounded-circle">
                   </div>
@@ -213,55 +220,54 @@
                     <span class=" text-black-50">Attorney</span>
                   </div>
                 </div>
-                <p class=" mt-5 text-dark">Estate planning is crucial, and they made the process seamless and stress-free. I can rest assured knowing family's future is secure</p>
+                <p class=" mt-5 sub-text">Estate planning is crucial, and they made the process seamless and stress-free. I can rest assured knowing family's future is secure</p>
                 <span class="quotes d-flex justify-content-end">“</span>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
 
-    <section class=" container mt-5">
+    <section class="container mt-5 Provides ">
       <div class="mb-3">
-        <h3>Our Team Provides Valuable Services at <br>Any Time in Any Situation</h3>
+        <h3 class="our">Our Team Provides Valuable Services at <br>Any Time in Any Situation</h3>
       </div>
       <div class="row d-flex justify-content-between">
-        <div class="col-md-6 col-lg-3 d-flex align-items-center">
+        <div class="col-md-6 col-lg-3 d-flex align-items-center icons">
           <div class=" container d-flex flex-column gap-3">
             <div>
               <img src="img/grad.png" alt="" class="grad">
             </div>
             <div>
               <h3 class=" fw-bold">Expert Guidance</h3>
-              <span class=" text-black-50">Rely on seasoned professionals for tailored financial advice and strategic planning aligned with your unique goals</span>
+              <span class="sub-text">Rely on seasoned professionals for tailored financial advice and strategic planning aligned with your unique goals</span>
             </div>
             <button class="btn read text-end">Read more</button>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 d-flex align-items-center">
+        <div class="col-md-6 col-lg-3 d-flex align-items-center icons">
           <div class=" container d-flex flex-column gap-3">
             <div>
               <img src="img/shield-check.png" alt="" class="shield">
             </div>
             <div>
               <h3 class=" fw-bold">Risk Management</h3>
-              <span class=" text-black-50">We expertly handle and proactively mitigate financial risks, ensuring the safeguard of assets and overall stability</span>
+              <span class="sub-text">We expertly handle and proactively mitigate financial risks, ensuring the safeguard of assets and overall stability</span>
             </div>
             <button class="btn read text-end">Read more</button>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 d-flex align-items-center">
+        <div class="col-md-6 col-lg-3 d-flex align-items-center icons">
           <div class=" container d-flex flex-column gap-3">
             <div>
               <img src="img/apps-add.png" alt="" class="app">
             </div>
             <div>
               <h3 class=" fw-bold">Customized Solutions</h3>
-              <span class=" text-black-50">Receive and Benefit from with financial solutions that tailored to your unique financial challenges and aspirations</span>
+              <span class="sub-text">Receive and Benefit from with financial solutions that tailored to your unique financial challenges and aspirations</span>
             </div>
             <div class=" d-flex justify-content-start">
               <button class="btn read">Read more</button>
@@ -271,8 +277,7 @@
       </div>
     </section>
 
-    <section class=" container mt-5 last-sec">
-      
+    <section class="container mt-5 last-sec START NOW">
       <div class="row d-flex">
         <div class="col-md-6 col-lg-6 d-flex align-items-center container">
           <div class=" container d-flex flex-column gap-4">
@@ -284,9 +289,15 @@
                 Get Start For Free No <br>Credit Card Required
               </h1>
             </div>
-            <div class=" d-flex gap-3">
-              <input class="form-control last-email me-2 w-50 pe-4 pt-3 pb-3" type="email" placeholder="Email address" aria-label="Search">
-              <button class="btn last-btn pe-4 ps-4" type="submit">Get Started</button>
+            <div>
+              <div class="row d-flex">
+                <div class="col-sm-3 col-md-6 col-lg-8">
+                  <input class="form-control last-email  w-100 pe-4 pt-3 pb-3" type="email" placeholder="Email address" aria-label="Search">
+                </div>
+                <div class="col-sm-3 col-md-6 col-lg-4 container">
+                  <button class="btn last-btn p-3" type="submit">Get Started</button>
+                </div>
+              </div>
             </div>
             <div class=" container">
               <span class="call">Want to contact our team and book a call? </span><a href="#" class="try">Try it now</a>
@@ -295,13 +306,13 @@
         </div>
         <div class="col-md-6 col-lg-6">
           <div class=" pt-4">
-            <img src="img/last-pic.png" alt="">
+            <img src="img/last-pic.png" alt="" class="w-75 last-pic">
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="footer mt-5 pt-5 pb-4 text-center text-md-end">
+    <footer class="footer mt-5 pt-5 pb-5 text-center text-md-end">
       <div class=" container">
         <div class="row d-flex justify-content-between">
           <div class="col-md-6 col-lg-4">
@@ -319,7 +330,7 @@
           </div>
           <div class="col-md-6 col-lg-2">
             <div class=" lh-lg">
-              <h4>Our Services</h4>
+              <h4 class="our-footer">Our Services</h4>
               <ul class=" list-unstyled">
                 <li>Insurance Planning</li>
                 <li>Estate Planning</li>
@@ -355,7 +366,7 @@
         
         <div class=" d-flex justify-content-between">
           <div>
-            <span>Beso 2024 © All rights reserved</span>
+            <span>Developed By <span class="beso">Super Beso</span></span>
           </div>
           <div class=" d-flex gap-3">
             <span>Terms & Conditions</span>
