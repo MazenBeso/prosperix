@@ -273,7 +273,25 @@ hr{
 }
 
 .beso{
-    color: #ffff00;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.blue{
+    color: #049ada
+}
+
+.red{
+    color:#e71e07
+}
+
+.yellow{
+    color: #fcd000
+}
+
+.green{
+    color:#42b132
 }
 
 @media screen and (max-width: 340px) {
