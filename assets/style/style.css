@@ -376,10 +376,105 @@ hr{
 }
 
 @media screen and (max-width: 970px) {
-    .global-h1{
-        font-size: 20px!important;
+    .global-h1 {
+        font-size: 40px!important;
         font-style: normal;
         font-weight: 600;
-        line-height: 20px;
+        line-height: 42px;
+    }
+    .first-img,.sec-left-side{
+        display: flex!important;
+        justify-content: center!important;
+        padding-left: 0!important;
+    }
+    .investments{
+        width: 280px;
+        height: 320px;
+        margin-top: 25px;
+    }
+    .right-side p{
+        color: #575757!important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .getStarted , .last-btn{
+        margin-top: 15px;
+    }
+    .company{
+        width: 364px!important;
+        height: 46px!important;
+    }
+    .dash::after{
+        top: 12px;
+        right: 26%;
+        width: 75px;
+        transform: translateX(-50%);    
+    }
+    .our{
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 128.023%; /* 61.451px */
+    }
+    .sec-left-side{
+        margin-top: 10px!important;
+    }
+    .regtangel{
+        width: 280px!important;
+        height: 320px;
+        margin-bottom: 15px;
+    }
+    .ser-dash{
+        margin-top: 25px;
+    }
+    .ser-dash::after{
+        width: 75px;
+        height: 3px;
+        top: 12px;
+        left: 65%;
+        transform: translateX(-100%);
+    }
+    .peopel{
+        gap: 30px;
+    }
+    .user-holder{
+        margin-top: 70px!important;
+    }
+    .linda{
+        position: relative;
+    }
+    .quotes-diff{
+        position: absolute;
+        bottom: -60%;
+        right: 5%;
+    }
+    .icons{
+        padding: 10px;
+    }
+    .start-dash{
+        margin-top: 20px;
+    }
+    .start-dash::after{
+        width: 72px;
+        height: 2px;
+        top: 12px;
+        left: 68%;
+        transform: translateX(-100%);
+    }
+    .last-sec{
+        width: 334px;
+        height: 710px;
+    }
+    .last-pic{
+        width: 308px!important;
+        height: 235px;
+    }
+    .our-footer{
+        margin-top: 22px;
+    }
+    .beso{
+        display: flex;
+        justify-content: center;
     }
 }
